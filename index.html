@@ -1,0 +1,28 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Home | MD Fahad</title><link rel="stylesheet" href="style.css"></head><body><div class="background-glow"></div><div class="smoke one"></div><div class="smoke two"></div><div class="smoke three"></div><canvas id="particles"></canvas>
+<nav>
+ <a class="logo" href="index.html">MD<span>.</span>FAHAD</a>
+ <button class="menu-btn" aria-label="Open navigation">☰</button>
+ <div class="nav-links">
+  <a href="index.html" data-page="index.html">Home</a>
+  <a href="about.html" data-page="about.html">About</a>
+  <a href="skills.html" data-page="skills.html">Skills</a>
+  <a href="experience.html" data-page="experience.html">Experience</a>
+  <a href="projects.html" data-page="projects.html">Projects</a>
+  <a href="gallery.html" data-page="gallery.html">Gallery</a>
+  <a href="contact.html" data-page="contact.html">Contact</a>
+ </div>
+</nav>
+<main>
+<section class="page-hero reveal" style="text-align:center;padding-top:110px">
+ <div class="eyebrow">✦ WELCOME TO MY DIGITAL WORLD ✦</div>
+ <h1 style="font-size:clamp(65px,12vw,130px);letter-spacing:-7px;background:linear-gradient(145deg,#fff 5%,#e2c7ff 40%,#a855f7 75%);-webkit-background-clip:text;color:transparent">MD FAHAD</h1>
+ <h2 style="font-size:23px;margin:20px 0;color:#d8c9e9">Creative Mind. Digital Vision.</h2>
+ <p class="muted" style="margin:0 auto 28px">A personal space to explore my work, skills, experience and creative journey.</p>
+ <a class="btn" href="projects.html">Explore My Work ↗</a>
+</section>
+<section class="reveal"><div class="section-title"><small>EXPLORE</small><h2>Discover my world.</h2></div><div class="grid">
+ <a class="card" href="about.html"><div class="icon">✦</div><h3>About Me</h3><p>Learn more about who I am.</p></a> fahad
+ <a class="card" href="skills.html"><div class="icon">⌘</div><h3>My Skills</h3><p>Explore my capabilities and interests.</p></a>
+ <a class="card" href="projects.html"><div class="icon">◈</div><h3>My Projects</h3><p>Browse my creative work by category.</p></a>
+</div></section>
+</main><footer>© 2026 MD FAHAD. Crafted with creativity & passion.</footer><script src="script.js"></script><script>document.querySelectorAll('.nav-links a').forEach(a=>{if(a.dataset.page===location.pathname.split('/').pop()||(!location.pathname.split('/').pop()&&a.dataset.page==='index.html'))a.classList.add('active')});</script></body></html>

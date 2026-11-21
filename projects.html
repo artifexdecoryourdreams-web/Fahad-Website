@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>My Projects | MD Fahad</title><link rel="stylesheet" href="style.css"></head><body><div class="background-glow"></div><div class="smoke one"></div><div class="smoke two"></div><div class="smoke three"></div><canvas id="particles"></canvas>
+<nav>
+ <a class="logo" href="index.html">MD<span>.</span>FAHAD</a>
+ <button class="menu-btn" aria-label="Open navigation">☰</button>
+ <div class="nav-links">
+  <a href="index.html" data-page="index.html">Home</a>
+  <a href="about.html" data-page="about.html">About</a>
+  <a href="skills.html" data-page="skills.html">Skills</a>
+  <a href="experience.html" data-page="experience.html">Experience</a>
+  <a href="projects.html" data-page="projects.html">Projects</a>
+  <a href="gallery.html" data-page="gallery.html">Gallery</a>
+  <a href="contact.html" data-page="contact.html">Contact</a>
+ </div>
+</nav>
+<main>
+<section class="page-hero reveal"><div class="eyebrow">04 / MY PROJECTS</div><h1>Ideas made real.</h1><p>Separate your work into categories. Use the category buttons to filter the projects.</p></section>
+<section class="reveal"><div class="section-title"><small>PROJECT LIBRARY</small><h2>Selected works.</h2></div>
+<div class="filters filter-area"><button class="filter active" data-filter="all">All Projects</button><button class="filter" data-filter="web">Web Design</button><button class="filter" data-filter="creative">Creative</button><button class="filter" data-filter="business">Business</button></div>
+<div class="grid">
+ <article class="card" data-category="web"><div class="project-art">◈</div><span class="tag">WEB DESIGN</span><h3>Personal Portfolio</h3><p>Modern personal website and digital identity.</p></article>
+ <article class="card" data-category="creative"><div class="project-art">✧</div><span class="tag">CREATIVE</span><h3>Creative Campaign</h3><p>Add details about a design or content project.</p></article>
+ <article class="card" data-category="business"><div class="project-art">⌘</div><span class="tag">BUSINESS</span><h3>Business Project</h3><p>Add a business, brand or marketing project.</p></article>
+ <article class="card" data-category="web"><div class="project-art">⌁</div><span class="tag">WEB DESIGN</span><h3>Website Concept</h3><p>Describe another website or development project.</p></article>
+ <article class="card" data-category="creative"><div class="project-art">✺</div><span class="tag">CREATIVE</span><h3>Visual Design</h3><p>Showcase visual work, photography or branding.</p></article>
+</div></section>
+</main><footer>© 2026 MD FAHAD. Crafted with creativity & passion.</footer><script src="script.js"></script><script>document.querySelectorAll('.nav-links a').forEach(a=>{if(a.dataset.page===location.pathname.split('/').pop()||(!location.pathname.split('/').pop()&&a.dataset.page==='index.html'))a.classList.add('active')});</script></body></html>

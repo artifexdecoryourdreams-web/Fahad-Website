@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>My Skills | MD Fahad</title><link rel="stylesheet" href="style.css"></head><body><div class="background-glow"></div><div class="smoke one"></div><div class="smoke two"></div><div class="smoke three"></div><canvas id="particles"></canvas>
+<nav>
+ <a class="logo" href="index.html">MD<span>.</span>FAHAD</a>
+ <button class="menu-btn" aria-label="Open navigation">☰</button>
+ <div class="nav-links">
+  <a href="index.html" data-page="index.html">Home</a>
+  <a href="about.html" data-page="about.html">About</a>
+  <a href="skills.html" data-page="skills.html">Skills</a>
+  <a href="experience.html" data-page="experience.html">Experience</a>
+  <a href="projects.html" data-page="projects.html">Projects</a>
+  <a href="gallery.html" data-page="gallery.html">Gallery</a>
+  <a href="contact.html" data-page="contact.html">Contact</a>
+ </div>
+</nav>
+<main>
+<section class="page-hero reveal"><div class="eyebrow">02 / MY SKILLS</div><h1>What I bring to the table.</h1><p>Add, edit and organize your skills into separate categories.</p></section>
+<section class="reveal"><div class="section-title"><small>SKILL CATEGORIES</small><h2>My capabilities.</h2></div><div class="grid">
+ <div class="card"><div class="icon">✦</div><h3>Creative & Design</h3><span class="tag">Graphic Design</span><span class="tag">Branding</span><span class="tag">Creative Direction</span><p>Add more design-related skills here.</p></div>
+ <div class="card"><div class="icon">⌘</div><h3>Technology</h3><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><p>Add programming, software and technical skills.</p></div>
+ <div class="card"><div class="icon">◈</div><h3>Business & Digital</h3><span class="tag">Marketing</span><span class="tag">Communication</span><span class="tag">Strategy</span><p>Add business, marketing and management skills.</p></div>
+</div></section>
+</main><footer>© 2026 MD FAHAD. Crafted with creativity & passion.</footer><script src="script.js"></script><script>document.querySelectorAll('.nav-links a').forEach(a=>{if(a.dataset.page===location.pathname.split('/').pop()||(!location.pathname.split('/').pop()&&a.dataset.page==='index.html'))a.classList.add('active')});</script></body></html>
